@@ -1,16 +1,13 @@
-
-import './App.css'
+import React from 'react';
+import Navbar from './components/Navbar';
+import Home from './pages/Home';
+import Footer from './components/Footer';
 
 function App() {
-
   return (
-    <>
-      <main>
-        <h1>Seja bem vindo! :)</h1>
-        <p>Desafio de apresentação Pessoal do Projeto Frontend fusion</p>
-      </main>
-    </>
+    <div className="min-h-screen flex flex-col bg-gray-50">
+    </div>
   );
 }
 
-export default App
+export default App;
