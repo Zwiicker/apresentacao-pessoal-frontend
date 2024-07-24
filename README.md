@@ -2,7 +2,7 @@
 
 <div align="center">
   <kbd>
-    <img align="" width="150px" src="/fusion.jpg">
+    <img align="" width="150px" src="/fusion.png">
   </kbd>
   
 <br />
