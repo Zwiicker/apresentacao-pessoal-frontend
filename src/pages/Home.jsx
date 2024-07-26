@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaReact, FaJsSquare,FaHtml5,FaAngular,FaJava,FaPython} from 'react-icons/fa'; // Usando react-icons
 import { SiTypescript,SiCsharp,SiDotnet} from 'react-icons/si';
+import ProjectCard from '../components/ProjectCard';
 import profilePic from '../assets/profile-pic.jpg'; // Substitua pelo caminho da sua imagem
 
 
@@ -43,9 +44,7 @@ function Home() {
 
      {/* Seção Habilidades */}
       <section id="habilidades" className="mb-20">
-        {/* Grade responsiva para exibir as habilidades */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-          {/* Mapeamento das habilidades para renderização */}
           {skills.map(skill => (
             <div key={skill.name} className="p-4 border border-gray-300 rounded-lg bg-white shadow-md animate-grow">
               <div className="flex items-center space-x-4 mb-4">
@@ -66,9 +65,35 @@ function Home() {
               </div>
             </div>
           ))}
-        </div>       
-      </section>        
+        </div>
+      </section>
+
+        {/* Seção Projetos Recentes */}
+        <section id="projetos" className="mb-20">
+          <h2 className="text-3xl font-bold mb-6 ">Projetos</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <ProjectCard 
+              title="Site sobre Dragon ball Z" 
+              description="Explore um site dedicado ao universo de Dragon Ball Z, com detalhes sobre os personagens, suas habilidades e a evolução da série" 
+              image="src\assets\01.png"
+              url="https://js-dragonballz-dev-git-main-zwiicker.vercel.app/"
+            />
+            <ProjectCard 
+              title="Lista de tarefas" 
+              description="Aplicação intuitiva para gerenciar suas tarefas diárias, permitindo criar, editar e organizar suas atividades de forma eficiente" 
+              image="src\assets\02.png" 
+              url="https://02-todolist-zwiicker.vercel.app/"
+            />
+            <ProjectCard 
+              title="Site web sobre a franquia GTA V" 
+              description="Descubra tudo sobre a famosa franquia GTA V com um site que oferece informações detalhadas" 
+              image="src\assets\03.png" 
+              url="https://zwiicker.github.io/html-gtav-dev/"
+            />
+          </div>
+        </section>
       </main>
+
     </div>
   );
 }
