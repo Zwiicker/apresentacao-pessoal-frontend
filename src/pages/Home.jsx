@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaReact, FaJsSquare,FaHtml5,FaAngular,FaJava,FaPython} from 'react-icons/fa'; // Usando react-icons
+import { FaLinkedin, FaGithub, FaReact, FaJsSquare,FaHtml5,FaAngular,FaJava,FaPython} from 'react-icons/fa'; // Usando react-icons
 import { SiTypescript,SiCsharp,SiDotnet} from 'react-icons/si';
 import ProjectCard from '../components/ProjectCard';
 import profilePic from '../assets/profile-pic.jpg'; // Substitua pelo caminho da sua imagem
@@ -91,6 +91,30 @@ function Home() {
               url="https://zwiicker.github.io/html-gtav-dev/"
             />
           </div>
+        </section>
+
+        {/* Seção Contato */}
+        <section id="contato" className="mb-12">
+          <ul className="flex justify-center space-x-6">
+            <li>
+              <a 
+                href="https://www.linkedin.com/in/henriquezgm/" 
+                className="flex items-center space-x-2 text-blue-600 hover:underline transition duration-300"
+              >
+                <FaLinkedin className="h-12 w-12 text-blue-600" />
+                <span>LinkedIn</span>
+              </a>
+            </li>
+            <li>
+              <a 
+                href="https://github.com/Zwiicker" 
+                className="flex items-center space-x-4 text-gray-800 hover:underline transition duration-300"
+              >
+                <FaGithub className="h-12 w-12 text-gray-800" />
+                <span>GitHub</span>
+              </a>
+            </li>
+          </ul>
         </section>
       </main>
 
