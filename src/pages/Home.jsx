@@ -75,19 +75,19 @@ function Home() {
             <ProjectCard 
               title="Site sobre Dragon ball Z" 
               description="Explore um site dedicado ao universo de Dragon Ball Z, com detalhes sobre os personagens, suas habilidades e a evolução da série" 
-              image="src\assets\01.png"
+              image="src\assets\01.jpg"
               url="https://js-dragonballz-dev-git-main-zwiicker.vercel.app/"
             />
             <ProjectCard 
               title="Lista de tarefas" 
               description="Aplicação intuitiva para gerenciar suas tarefas diárias, permitindo criar, editar e organizar suas atividades de forma eficiente" 
-              image="src\assets\02.png" 
+              image="src\assets\02.jpg" 
               url="https://02-todolist-zwiicker.vercel.app/"
             />
             <ProjectCard 
               title="Site web sobre a franquia GTA V" 
               description="Descubra tudo sobre a famosa franquia GTA V com um site que oferece informações detalhadas" 
-              image="src\assets\03.png" 
+              image="src\assets\03.jpg" 
               url="https://zwiicker.github.io/html-gtav-dev/"
             />
           </div>
