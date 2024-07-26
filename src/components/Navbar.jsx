@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         {/* Link para a seção "home" com logo e título */}
         <a href="#home" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src="src\assets\fusion.jpg" className="h-10" alt="Projeto Frontend Fusion" />
+          <img src="/fusion.png" className="h-10" alt="Projeto Frontend Fusion" />
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
             Apresentação Pessoal - Front end Fusion
           </span>
